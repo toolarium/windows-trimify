@@ -10,4 +10,13 @@ Please check first the file [trimmify.ps1](https://raw.githubusercontent.com/too
 powershell -Command "iwr https://raw.githubusercontent.com/toolarium/windows-trimify/master/bin/trimmify.ps1 | iex"
 ```
 
-To run this enter a powershell with administrator privileges.
+To run this enter a powershell with administrator privileges. In case your system don't allow to run Powershell scripts, you could temporary allow:
+
+```powershell
+Set-ExecutionPolicy Unrestricted
+```
+and afterwards reset back to:
+
+```powershell
+Set-ExecutionPolicy Restricted
+```
