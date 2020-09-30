@@ -23,7 +23,7 @@ $WindowsSettings = @(
 	"Disable-Feedback",
 	"Disable-Shared-Experiences",
 	"Disable-Remote-Assistence",
-	#"Disable-Remote-Desktop",
+	"Disable-Remote-Desktop",
 	"Disable-WAP-Service",
 	#"Disable-Error-Reporing",
 
@@ -33,10 +33,10 @@ $WindowsSettings = @(
 	#########################################################################
 	"Disable-SMB_v1",
 	"Disable-VBS",
-	##"Restrict-Windows-Update-P2P-Local-Network",
+	"Restrict-Windows-Update-P2P-Local-Network",
 	#"Disable-WindowsUpdate-Scheduled-Task",
 	"Enable-Strong-Cryptography",
-	##"Disable-Implicit-Administrative-Shares",
+	"Disable-Implicit-Administrative-Shares",
 	"Disable-Autoplay",
 	"Disable-Autorun",
 	
@@ -44,13 +44,13 @@ $WindowsSettings = @(
 	#########################################################################
 	# 
 	#########################################################################
-	##"Disable-Windows-Update-Restart",
+	"Disable-Windows-Update-Restart",
 	#"Disable-Windows-Search-Indexing-Service",
 	"Disable-Bing-Search",
 	"Disable-Application-suggestions",
 	"Disable-Activity-History",
-	##"Disable-Background-Application-Access",
-	##"Disable-Tailored-Experiences",
+	"Disable-Background-Application-Access",
+	"Disable-Tailored-Experiences",
 	"Disable-Cortana",
 	"Disable-Diagnostic-Tracing-Service",
 	#"Set-Bios-time-to-UTC",
@@ -66,7 +66,7 @@ $WindowsSettings = @(
 	##"Show-TaskManager-Details",
 	"Show-File-Operations-Detail",
 	"Hide-Search-Icon-Taskbar",
-	#"Hide-Task-View-Button",
+	"Hide-Task-View-Button",
 	"Show-Small-Icons-in-Taskbar",
 	"Hide-People-Icon-Taskbar",
 	"Show-All-Tray-Icons",
@@ -100,8 +100,8 @@ $WindowsSettings = @(
 	# Unpinning
 	#########################################################################
 	#"Unpin-StartMenu",
-	#"Unpin-Taskbar"
-	#"Uninstall-Default-Software-Packages",
+	#"Unpin-Taskbar",
+	"Uninstall-Default-Software-Packages"
 )
 
 
