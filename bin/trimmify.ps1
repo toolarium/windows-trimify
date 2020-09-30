@@ -34,6 +34,7 @@ $WindowsSettings = @(
 	"Disable-SMB_v1",
 	"Disable-VBS",
 	##"Restrict-Windows-Update-P2P-Local-Network",
+	#"Disable-WindowsUpdate-Scheduled-Task",
 	"Enable-Strong-Cryptography",
 	##"Disable-Implicit-Administrative-Shares",
 	"Disable-Autoplay",
