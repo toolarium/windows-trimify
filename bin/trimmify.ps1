@@ -182,6 +182,7 @@ foreach ($windowsSetting in $WindowsSettings) {
 
     if (Test-Path "$tempFolderName\$filename") {
 		Write-Host "$lineHeader Execute $windowsSetting..."
+        & "$tempFolderName\$filename"
     }
 }
 
